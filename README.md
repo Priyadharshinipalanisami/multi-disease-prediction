@@ -1,12 +1,31 @@
-# CodeAlpha_DiseasePrediction
+<div align="center">
 
-🩺 Disease Prediction AI | Machine Learning-based Disease Prediction System that analyzes user symptoms and predicts the most probable disease using Logistic Regression, Decision Tree, Random Forest, and Support Vector Machine (SVM) algorithms.
+# 🩺 Disease Prediction AI
+### 🚀 Machine Learning Based Multi-Disease Prediction System
 
-# 🩺 Disease Prediction AI - Machine Learning Based Disease Prediction System
+<img src="https://img.shields.io/badge/Python-3.12-blue?logo=python">
+<img src="https://img.shields.io/badge/Flask-Web_App-black?logo=flask">
+<img src="https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn">
+<img src="https://img.shields.io/badge/XGBoost-AI-green">
+<img src="https://img.shields.io/badge/SQLite-Database-blue?logo=sqlite">
+<img src="https://img.shields.io/badge/Bootstrap-Responsive-purple?logo=bootstrap">
+<img src="https://img.shields.io/badge/License-MIT-success">
 
-## 📌 Project Objective
+### 🏥 Predict Diseases Using Artificial Intelligence & Machine Learning
 
-The objective of this project is to predict the likelihood of diseases based on structured medical data using classification algorithms. The application allows users to enter patient details and receive a prediction for:
+*A smart healthcare web application that predicts multiple diseases from patient medical data using advanced Machine Learning algorithms.*
+
+---
+
+</div>
+
+# 📖 Overview
+
+Disease Prediction AI is a Machine Learning powered healthcare application developed using **Python**, **Flask**, and **Scikit-Learn**.
+
+The system analyzes patient medical information and predicts the probability of different diseases with high accuracy.
+
+The application currently supports prediction for:
 
 - 🩸 Diabetes
 - ❤️ Heart Disease
@@ -14,51 +33,69 @@ The objective of this project is to predict the likelihood of diseases based on 
 
 ---
 
-## ✨ Features
+# ✨ Key Features
 
-- User Registration and Login
-- Diabetes Prediction
-- Heart Disease Prediction
-- Breast Cancer Prediction
-- Responsive Web Interface
-- Machine Learning Model Integration
-- SQLite Database for User Authentication
-- Fast and Accurate Predictions
+✅ Secure User Login & Registration
 
----
+✅ Diabetes Prediction
 
-## 🛠️ Technologies Used
+✅ Heart Disease Prediction
 
-### Programming Language
-- Python 3
+✅ Breast Cancer Prediction
 
-### Machine Learning
-- Scikit-learn
-- XGBoost
-- Joblib
+✅ Machine Learning Integration
 
-### Web Framework
-- Flask
+✅ Fast Prediction Results
 
-### Database
-- SQLite
+✅ Responsive Bootstrap UI
 
-### Frontend
-- HTML5
-- CSS3
-- Bootstrap
+✅ SQLite Database
 
-### Libraries
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+✅ User-Friendly Interface
+
+✅ Easy Deployment
 
 ---
 
-## 📂 Project Structure
+# 🖥️ Application Screens
 
-```
+📌 Home Page
+
+📌 Login Page
+
+📌 Register Page
+
+📌 Dashboard
+
+📌 Diabetes Prediction
+
+📌 Heart Disease Prediction
+
+📌 Breast Cancer Prediction
+
+📌 Prediction Result
+
+---
+
+# 🧠 Machine Learning Models
+
+The project compares multiple classification algorithms.
+
+| Algorithm | Status |
+|-----------|---------|
+| Logistic Regression | ✅ |
+| Decision Tree | ✅ |
+| Random Forest | ✅ |
+| Support Vector Machine (SVM) | ✅ |
+| XGBoost | ✅ |
+
+The best-performing model is automatically saved using **Joblib** and loaded into the Flask application.
+
+---
+
+# 🏗️ Project Structure
+
+```text
 CodeAlpha_DiseasePrediction/
 │
 ├── app.py
@@ -90,53 +127,79 @@ CodeAlpha_DiseasePrediction/
 │   ├── cancer.html
 │   └── result.html
 │
-├── static/
-│   ├── css/
-│   │   └── style.css
-
----
-
-## 📊 Datasets Used
-
-### 1. Diabetes Prediction
-- Pima Indians Diabetes Dataset
-
-### 2. Heart Disease Prediction
-- UCI Heart Disease Dataset
-
-### 3. Breast Cancer Prediction
-- Breast Cancer Wisconsin (Diagnostic) Dataset
-
----
-
-## 🤖 Machine Learning Algorithms
-
-The following classification algorithms were trained and evaluated:
-
-- Logistic Regression
-- Support Vector Machine (SVM)
-- Random Forest
-- XGBoost
-
-The best-performing model for each dataset is saved using Joblib and used by the Flask application.
-
----
-
-## ⚙️ Installation
-
-### Clone the repository
-
-```bash
-git clone https://github.com/https://github.com/Priyadharshinipalanisami/multi-disease-prediction/CodeAlpha_DiseasePrediction.git
+└── static/
+    ├── css/
+    │    └── style.css
+    ├── images/
+    └── js/
 ```
 
-### Move to the project directory
+---
+
+# 📊 Datasets
+
+| Disease | Dataset |
+|----------|----------|
+| Diabetes | Pima Indians Diabetes Dataset |
+| Heart Disease | UCI Heart Disease Dataset |
+| Breast Cancer | Wisconsin Breast Cancer Dataset |
+
+---
+
+# ⚙️ Technology Stack
+
+## 💻 Programming Language
+
+- Python 3
+
+## 🤖 Machine Learning
+
+- Scikit-Learn
+- XGBoost
+- Joblib
+
+## 🌐 Web Framework
+
+- Flask
+
+## 🗄 Database
+
+- SQLite
+
+## 🎨 Frontend
+
+- HTML5
+- CSS3
+- Bootstrap
+
+## 📚 Python Libraries
+
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Priyadharshinipalanisami/CodeAlpha_DiseasePrediction.git
+```
+
+---
+
+## 2️⃣ Move into Project Folder
 
 ```bash
 cd CodeAlpha_DiseasePrediction
 ```
 
-### Install dependencies
+---
+
+## 3️⃣ Install Requirements
 
 ```bash
 pip install -r requirements.txt
@@ -144,23 +207,25 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Train the Models
+# 🤖 Train Machine Learning Models
 
 ```bash
 python train_models.py
 ```
 
-This generates the trained model files in the **models/** folder.
+This creates all trained models inside the **models/** folder.
 
 ---
 
-## ▶️ Run the Application
+# ▶️ Run Flask Application
 
 ```bash
 python app.py
 ```
 
-Open your browser and visit:
+---
+
+Open Browser
 
 ```
 http://127.0.0.1:5000
@@ -168,85 +233,137 @@ http://127.0.0.1:5000
 
 ---
 
+# 🔄 Project Workflow
 
----
-
-## 📈 Workflow
-
-```
-Medical Dataset
-        │
-        ▼
-Data Preprocessing
-        │
-        ▼
-Feature Selection
-        │
-        ▼
-Model Training
-(Logistic Regression, SVM,
-Random Forest, XGBoost)
-        │
-        ▼
-Model Evaluation
-        │
-        ▼
-Save Best Model
-        │
-        ▼
-Flask Web Application
-        │
-        ▼
-Disease Prediction
-```
-
----
-
-## 🚀 Future Enhancements
-
-- Add Liver Disease Prediction
-- Add Kidney Disease Prediction
-- Add Parkinson's Disease Prediction
-- Deploy the application using Render or Railway
-- Add PDF report generation
-- Display prediction probability
-- Store prediction history
-
----
-
-## 👨‍💻 Author
-
-**Priyadharshini P**
-
-MCA Student
-
-Machine Learning Internship Project – CodeAlpha
-
----
-
-## 📜 License
-
-This project is developed for educational and internship purposes.
-
-```
-MIT License
-
-Copyright (c) 2026
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software.
+```text
+            Medical Dataset
+                   │
+                   ▼
+        Data Preprocessing
+                   │
+                   ▼
+        Feature Engineering
+                   │
+                   ▼
+      Machine Learning Models
+      ┌──────────────────────────┐
+      │ Logistic Regression      │
+      │ Decision Tree            │
+      │ Random Forest            │
+      │ Support Vector Machine   │
+      │ XGBoost                  │
+      └──────────────────────────┘
+                   │
+                   ▼
+          Model Evaluation
+                   │
+                   ▼
+          Best Model Selection
+                   │
+                   ▼
+         Save Model (Joblib)
+                   │
+                   ▼
+      Flask Web Application
+                   │
+                   ▼
+         Disease Prediction
 ```
 
 ---
 
-## ⭐ Acknowledgements
+# 📸 Output
 
-- CodeAlpha
-- UCI Machine Learning Repository
-- Scikit-learn
-- Flask
-- XGBoost
-- Pandas & NumPy
+- 🏠 Home Page
+- 🔐 Login
+- 📝 Register
+- 📊 Dashboard
+- 🩸 Diabetes Prediction
+- ❤️ Heart Prediction
+- 🎗️ Cancer Prediction
+- 📈 Prediction Result
+
+*(Add screenshots here after uploading your project images.)*
+
+---
+
+# 🚀 Future Improvements
+
+✅ Liver Disease Prediction
+
+✅ Kidney Disease Prediction
+
+✅ Parkinson Disease Prediction
+
+✅ PDF Medical Report
+
+✅ Prediction History
+
+✅ Email Report
+
+✅ Doctor Recommendation
+
+✅ Probability Score
+
+✅ Cloud Deployment (Render/Railway)
+
+---
+
+# 🎯 Learning Outcomes
+
+✔ Machine Learning
+
+✔ Classification Algorithms
+
+✔ Data Preprocessing
+
+✔ Feature Scaling
+
+✔ Flask Development
+
+✔ Model Deployment
+
+✔ SQLite Database
+
+✔ Bootstrap UI
+
+---
+
+# 👨‍💻 Author
+
+## **Priyadharshini P**
+
+🎓 MCA Student
+
+💻 Machine Learning Enthusiast
+
+🏆 CodeAlpha Machine Learning Internship
+
+---
+
+# 🤝 Acknowledgements
+
+- ❤️ CodeAlpha
+- ❤️ Scikit-Learn
+- ❤️ Flask
+- ❤️ XGBoost
+- ❤️ UCI Machine Learning Repository
+- ❤️ Pandas
+- ❤️ NumPy
+- ❤️ Bootstrap
+
+---
+
+# 📜 License
+
+Licensed under the **MIT License**.
+
+---
+
+<div align="center">
+
+## ⭐ If you like this project, don't forget to Star the repository ⭐
+
+### 💙 Thank You for Visiting!
+
+</div>
