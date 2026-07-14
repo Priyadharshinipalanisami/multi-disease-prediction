@@ -1,0 +1,222 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Disease Prediction System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="/">
+            <i class="fa-solid fa-heart-pulse"></i>
+            Multi Disease Prediction
+        </a>
+
+        <div>
+
+            <a href="/login" class="btn btn-light me-2">
+                Login
+            </a>
+
+            <a href="/register" class="btn btn-warning">
+                Register
+            </a>
+
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- Hero Section -->
+
+<section class="container mt-5">
+
+    <div class="row align-items-center">
+
+        <div class="col-md-6">
+
+            <h1 class="display-4 fw-bold text-primary">
+                Multi Disease Prediction System
+            </h1>
+
+            <p class="lead mt-3">
+
+                Predict diseases using Machine Learning models.
+                This application can predict:
+
+            </p>
+
+            <ul class="list-group list-group-flush mt-4">
+
+                <li class="list-group-item">
+                    ❤️ Diabetes Prediction
+                </li>
+
+                <li class="list-group-item">
+                    🫀 Heart Disease Prediction
+                </li>
+
+                <li class="list-group-item">
+                    🎗 Breast Cancer Prediction
+                </li>
+
+            </ul>
+
+            <div class="mt-4">
+
+                <a href="/login" class="btn btn-primary btn-lg">
+                    Get Started
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-6 text-center">
+
+            <img src="{{ url_for('static', filename='images/doctor.png') }}"
+                 class="img-fluid"
+                 style="max-height:450px;"
+                 alt="Doctor">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Features -->
+
+<section class="container mt-5">
+
+    <h2 class="text-center mb-4">
+        Features
+    </h2>
+
+    <div class="row">
+
+        <div class="col-md-4">
+
+            <div class="card shadow">
+
+                <div class="card-body text-center">
+
+                    <i class="fa-solid fa-brain fa-3x text-primary"></i>
+
+                    <h4 class="mt-3">
+                        Machine Learning
+                    </h4>
+
+                    <p>
+
+                        Predict diseases using trained
+                        Machine Learning models.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4">
+
+            <div class="card shadow">
+
+                <div class="card-body text-center">
+
+                    <i class="fa-solid fa-user-shield fa-3x text-success"></i>
+
+                    <h4 class="mt-3">
+                        Secure Login
+                    </h4>
+
+                    <p>
+
+                        Login and Register
+                        using SQLite Database.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-md-4">
+
+            <div class="card shadow">
+
+                <div class="card-body text-center">
+
+                    <i class="fa-solid fa-chart-line fa-3x text-danger"></i>
+
+                    <h4 class="mt-3">
+                        Instant Prediction
+                    </h4>
+
+                    <p>
+
+                        Get prediction results
+                        within seconds.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer class="bg-primary text-white text-center mt-5 p-3">
+
+    <h5>
+
+        © 2026 Multi Disease Prediction System
+
+    </h5>
+
+    <p>
+
+        Developed using Flask, SQLite and Machine Learning
+
+    </p>
+
+</footer>
+
+</body>
+</html>
+```
