@@ -1,8 +1,8 @@
-# 🏥 Disease Prediction from Medical Data
+# CodeAlpha_DiseasePrediction
 
-A Machine Learning-based web application that predicts the possibility of diseases using patient medical data. This project is developed using Python, Flask, and Scikit-learn as part of the **CodeAlpha Machine Learning Internship**.
+🩺 Disease Prediction AI | Machine Learning-based Disease Prediction System that analyzes user symptoms and predicts the most probable disease using Logistic Regression, Decision Tree, Random Forest, and Support Vector Machine (SVM) algorithms.
 
----
+# 🩺 Disease Prediction AI - Machine Learning Based Disease Prediction System
 
 ## 📌 Project Objective
 
