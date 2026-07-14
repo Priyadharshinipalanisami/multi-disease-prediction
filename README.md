@@ -127,7 +127,7 @@ The best-performing model for each dataset is saved using Joblib and used by the
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/CodeAlpha_DiseasePrediction.git
+git clone https://github.com/https://github.com/Priyadharshinipalanisami/multi-disease-prediction/CodeAlpha_DiseasePrediction.git
 ```
 
 ### Move to the project directory
