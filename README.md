@@ -130,8 +130,6 @@ CodeAlpha_DiseasePrediction/
 └── static/
     ├── css/
     │    └── style.css
-    ├── images/
-    └── js/
 ```
 
 ---
